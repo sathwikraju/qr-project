@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    font-size: 20px;
+    width: 15rem;
+    margin: 10px auto;
+    line-height: 1.5;
+}
+p{
+    width: 15rem;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+.main-layout{
+    position: relative;
+}
+
+.qr-white-bg{
+    background-color: white;
+    width: 340px;
+    height: 490px;
+    position: absolute;
+    left: 597px;
+    top: 90px;
+    border-radius:10px ;
+    
+
+}
+.qr-code-img{
+    display: block;
+    margin: 100px auto 10px;
+    width: 20rem;
+    border-radius: 10px;
+}
+.attribution{
+    padding-top: 100px ;
+}
